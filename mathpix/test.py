@@ -5,7 +5,7 @@ import time
 import requests
 
 start = time.time()
-file_path = 'images/anh.jpg'
+file_path = 'images/anh6.jpg'
 with open(file_path, "rb") as f:
     encode = str(base64.b64encode(f.read()))
 image_uri = 'data:image/jpg;base64,' + encode[2:-1]
